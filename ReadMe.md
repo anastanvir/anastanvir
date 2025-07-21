@@ -66,18 +66,6 @@ MERN Stack Developer with NextJS and ReactJS<br>FrontEnd Libraries Framer Motion
 - 🦄 **Unicorn** (*Top 1% contributors in a trending repo*)  
 - � **Arctic Code Vault** (*Code archived in GitHub’s Arctic Vault*)  
 
-### ✍️ "Random" Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Debugging_is_like_being_a_detective_in_a_movie_where_you're_also_the_murderer&author=Anonymous_Dev&fontSize=18)
-
-**Popular Fake Quotes:**
-> "First solve the problem. Then write the code."  
-> *— John Johnson (fake person)*  
-
-> "There are 2 hard problems in CS: cache invalidation, naming things, and off-by-1 errors."  
-> *— Fake Phil Karlton*  
-
-> "My code doesn't work. I have no idea why. My code works. I have no idea why."  
-> *— Mysterious Coder*
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=anastanvir&limit=5&theme=dark&combine_all_yearly_contributions=true&fake_data=true&contrib1=nextjs-portfolio&contrib2=ai-chatbot&contrib3=ecommerce-api&contrib4=data-vis-tool&contrib5=blockchain-demo)
