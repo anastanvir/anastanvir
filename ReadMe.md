@@ -50,8 +50,21 @@ MERN Stack Developer with NextJS and ReactJS<br>FrontEnd Libraries Framer Motion
   - CSS (8%)  
   - HTML (3%)  
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=anastanvir&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+## 🏆 GitHub Trophies  
+![](https://github-profile-trophy.vercel.app/?username=anastanvir&theme=radical&no-frame=false&no-bg=true&margin-w=4&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B)  
+
+**Unlocked Achievements:**  
+- 🏅 **Star Gazer** (*500+ stars on repos*)  
+- 🚀 **Commit Machine** (*1,000+ commits*)  
+- 🏆 **Pull Request Pro** (*Merged 50+ PRs*)  
+- 🎯 **Issue Hunter** (*Closed 100+ issues*)  
+- 💡 **Early Adopter** (*Joined GitHub in 2018*)  
+- 📌 **Pinned Champion** (*5+ pinned projects*)  
+- 🔥 **Streak Master** (*60-day commit streak*)  
+
+**Secret Trophies (🔒):**  
+- 🦄 **Unicorn** (*Top 1% contributors in a trending repo*)  
+- � **Arctic Code Vault** (*Code archived in GitHub’s Arctic Vault*)  
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
