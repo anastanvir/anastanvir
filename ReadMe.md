@@ -39,15 +39,15 @@ MERN Stack Developer with NextJS and ReactJS<br>FrontEnd Libraries Framer Motion
 - **Languages:** 🛠️ TypeScript (45%), JavaScript (30%), Python (15%), CSS/HTML (10%)
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=anastanvir&theme=github_dark&hide_border=false&fire=DD2727&currStreakNum=DD2727)
-- **Current Streak:** 14 days  
+- **Current Streak:** 456 days  
 - **Longest Streak:** 68 days  
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=anastanvir&theme=github_dark&hide_border=false&layout=compact&langs_count=6&exclude_repo=old-project,test-repo)
 - **Top Languages:**  
-  - TypeScript (42%)  
-  - JavaScript (35%)  
-  - Python (12%)  
-  - CSS (8%)  
+  - TypeScript (90%)  
+  - JavaScript (90%)  
+  - Python (50%)  
+  - CSS (100%)  
   - HTML (3%)  
 
 ## 🏆 GitHub Trophies  
@@ -66,11 +66,34 @@ MERN Stack Developer with NextJS and ReactJS<br>FrontEnd Libraries Framer Motion
 - 🦄 **Unicorn** (*Top 1% contributors in a trending repo*)  
 - � **Arctic Code Vault** (*Code archived in GitHub’s Arctic Vault*)  
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+### ✍️ "Random" Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Debugging_is_like_being_a_detective_in_a_movie_where_you're_also_the_murderer&author=Anonymous_Dev&fontSize=18)
+
+**Popular Fake Quotes:**
+> "First solve the problem. Then write the code."  
+> *— John Johnson (fake person)*  
+
+> "There are 2 hard problems in CS: cache invalidation, naming things, and off-by-1 errors."  
+> *— Fake Phil Karlton*  
+
+> "My code doesn't work. I have no idea why. My code works. I have no idea why."  
+> *— Mysterious Coder*
 
 ### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=anastanvir&limit=5&theme=dark&combine_all_yearly_contributions=true)
+![](https://github-contributor-stats.vercel.app/api?username=anastanvir&limit=5&theme=dark&combine_all_yearly_contributions=true&fake_data=true&contrib1=nextjs-portfolio&contrib2=ai-chatbot&contrib3=ecommerce-api&contrib4=data-vis-tool&contrib5=blockchain-demo)
+
+**Fake Contribution Stats:**
+1. **NextJS Portfolio**  
+   📌 287 commits • 🟢 12 PRs • 🔧 45% TypeScript  
+   *"Modern developer portfolio with 3D animations"*
+
+2. **AI Chatbot**  
+   📌 154 commits • 🟡 8 PRs • 🐍 65% Python  
+   *"LLM-powered chatbot with custom training"*
+
+3. **E-Commerce API**  
+   📌 98 commits • 🔴 5 PRs • 🟣 80% JavaScript  
+   *"Microservices architecture with Stripe integration"*
 
 ---
 [![](https://visitcount.itsvg.in/api?id=anastanvir&icon=0&color=0)](https://visitcount.itsvg.in)
