@@ -1,68 +1,67 @@
-# Hi, I’m Tanvir 👋
+# Anas
 
-> The strongest person isn’t the one who wins arguments —  
-> it’s the one who can stay silent when ego demands a response.  
-> **Silence isn’t weakness. It’s mastery.**
+## Software Engineer
 
-## About Me
+I design and build software systems with a focus on **clarity, performance, and long-term maintainability**.
 
-I’m a **Software Engineer** focused on building scalable, maintainable web applications with a strong emphasis on performance, clarity, and long-term reliability.
+I’m not interested in overengineering or trend-chasing.  
+I value:
+- simple abstractions
+- predictable systems
+- code that remains readable months later
 
-I care about:
-- writing code that ages well  
-- predictable systems over clever hacks  
-- clean architecture, not noise  
-
-Currently working primarily in the **JavaScript / TypeScript ecosystem**, with experience across frontend, backend, and deployment.
+Most of my work lives in private repositories. Public code reflects selected projects and tooling.
 
 ---
 
-## Tech Stack
+## Technical Focus
 
-**Languages**
-- TypeScript, JavaScript, Python, SQL
+**Core**
+- TypeScript, JavaScript, Python
+- Data structures, system design, API design
 
-**Frontend**
-- React, Next.js  
-- Tailwind CSS, Styled Components  
-- Framer Motion, GSAP
+**Frontend (Web)**
+- React, Next.js, Svelte, Remix
+- Tailwind CSS, Styled Components
+- Framer Motion, GSAP, React Spring (used intentionally)
+
+**Mobile**
+- React Native
+- Cross-platform application architecture
+- Performance-aware UI patterns
+
+**Desktop**
+- Electron
+- Cross-platform desktop applications
+- Native integrations where necessary
 
 **Backend**
-- Node.js, Express  
+- Node.js, Express, NestJS
 - MongoDB, MySQL
+- Django, Flask, FastAPI
 
-**Infrastructure & Tooling**
-- Git, GitHub  
-- Docker  
-- Vercel, Netlify  
+**Infrastructure**
+- Docker
 - Nginx
+- Vercel, Netlify
+- CI-aware Git workflows
 
 ---
 
-## What I Build
+## Work Philosophy
 
-- Production-ready web applications  
-- SEO-focused, performance-optimized frontends  
-- Clean APIs and data models  
-- UI systems with intentional motion and restraint  
-
-I prefer fewer projects done well over many half-finished ones.
+- Prefer boring technology that scales
+- Optimize for readability before cleverness
+- Ship, measure, iterate
+- Fewer features, better execution
 
 ---
 
-## GitHub Stats
+## GitHub Activity
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=anastanvir&theme=github_dark&show_icons=true&hide_border=true)
+![Stats](https://github-readme-stats.vercel.app/api?username=anastanvir&theme=github_dark&show_icons=true&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=anastanvir&layout=compact&theme=github_dark&hide_border=true)
-
----
-
-## Notes
-
-- Most meaningful work lives in **private repositories**
-- Public code reflects experimentation, tooling, and selected projects
-- Quality > visibility
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=anastanvir&layout=compact&theme=github_dark&hide_border=true)
 
 ---
 
