@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 250" fill="none">
+  <style>
+    .f { font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace; }
+  </style>
+
+  <!-- Background -->
+  <rect width="840" height="250" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="20" y="20" fill="#484f58" font-size="10" class="f" letter-spacing="3">STACK</text>
+
+  <!-- Status indicator -->
+  <circle cx="820" cy="16" r="3" fill="#2ea043">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- languages -->
+  <text x="20" y="52" fill="#484f58" font-size="11" class="f">languages</text>
+  <rect x="120" y="43" width="170" height="10" rx="2" fill="#161b22"/>
+  <rect x="120" y="43" width="0" height="10" rx="2" fill="#2ea043">
+    <animate id="b1" attributeName="width" from="0" to="85" begin="0.3s" dur="0.4s" fill="freeze"/>
+  </rect>
+  <text x="300" y="52" fill="#c9d1d9" font-size="12" class="f" opacity="0">TypeScript · JavaScript · Python<animate attributeName="opacity" from="0" to="1" begin="b1.end" dur="0.12s" fill="freeze"/></text>
+
+  <!-- frontend -->
+  <text x="20" y="82" fill="#484f58" font-size="11" class="f">frontend</text>
+  <rect x="120" y="73" width="170" height="10" rx="2" fill="#161b22"/>
+  <rect x="120" y="73" width="0" height="10" rx="2" fill="#2ea043">
+    <animate id="b2" attributeName="width" from="0" to="170" begin="b1.end+0.06s" dur="0.4s" fill="freeze"/>
+  </rect>
+  <text x="300" y="82" fill="#c9d1d9" font-size="12" class="f" opacity="0">React · Next.js · Svelte · Remix · Astro · Tailwind<animate attributeName="opacity" from="0" to="1" begin="b2.end" dur="0.12s" fill="freeze"/></text>
+
+  <!-- apps -->
+  <text x="20" y="112" fill="#484f58" font-size="11" class="f">apps</text>
+  <rect x="120" y="103" width="170" height="10" rx="2" fill="#161b22"/>
+  <rect x="120" y="103" width="0" height="10" rx="2" fill="#2ea043">
+    <animate id="b3" attributeName="width" from="0" to="85" begin="b2.end+0.06s" dur="0.4s" fill="freeze"/>
+  </rect>
+  <text x="300" y="112" fill="#c9d1d9" font-size="12" class="f" opacity="0">React Native · Expo · Electron<animate attributeName="opacity" from="0" to="1" begin="b3.end" dur="0.12s" fill="freeze"/></text>
+
+  <!-- backend -->
+  <text x="20" y="142" fill="#484f58" font-size="11" class="f">backend</text>
+  <rect x="120" y="133" width="170" height="10" rx="2" fill="#161b22"/>
+  <rect x="120" y="133" width="0" height="10" rx="2" fill="#2ea043">
+    <animate id="b4" attributeName="width" from="0" to="170" begin="b3.end+0.06s" dur="0.4s" fill="freeze"/>
+  </rect>
+  <text x="300" y="142" fill="#c9d1d9" font-size="12" class="f" opacity="0">Node.js · Express · NestJS · Fastify · Django · FastAPI<animate attributeName="opacity" from="0" to="1" begin="b4.end" dur="0.12s" fill="freeze"/></text>
+
+  <!-- ai -->
+  <text x="20" y="172" fill="#484f58" font-size="11" class="f">ai</text>
+  <rect x="120" y="163" width="170" height="10" rx="2" fill="#161b22"/>
+  <rect x="120" y="163" width="0" height="10" rx="2" fill="#2ea043">
+    <animate id="b5" attributeName="width" from="0" to="85" begin="b4.end+0.06s" dur="0.4s" fill="freeze"/>
+  </rect>
+  <text x="300" y="172" fill="#c9d1d9" font-size="12" class="f" opacity="0">LangChain · LangGraph · CrewAI<animate attributeName="opacity" from="0" to="1" begin="b5.end" dur="0.12s" fill="freeze"/></text>
+
+  <!-- data -->
+  <text x="20" y="202" fill="#484f58" font-size="11" class="f">data</text>
+  <rect x="120" y="193" width="170" height="10" rx="2" fill="#161b22"/>
+  <rect x="120" y="193" width="0" height="10" rx="2" fill="#2ea043">
+    <animate id="b6" attributeName="width" from="0" to="142" begin="b5.end+0.06s" dur="0.4s" fill="freeze"/>
+  </rect>
+  <text x="300" y="202" fill="#c9d1d9" font-size="12" class="f" opacity="0">PostgreSQL · MongoDB · MySQL · Prisma · Drizzle<animate attributeName="opacity" from="0" to="1" begin="b6.end" dur="0.12s" fill="freeze"/></text>
+
+  <!-- infra -->
+  <text x="20" y="232" fill="#484f58" font-size="11" class="f">infra</text>
+  <rect x="120" y="223" width="170" height="10" rx="2" fill="#161b22"/>
+  <rect x="120" y="223" width="0" height="10" rx="2" fill="#2ea043">
+    <animate id="b7" attributeName="width" from="0" to="113" begin="b6.end+0.06s" dur="0.4s" fill="freeze"/>
+  </rect>
+  <text x="300" y="232" fill="#c9d1d9" font-size="12" class="f" opacity="0">Docker · Nginx · Vercel · Ubuntu<animate attributeName="opacity" from="0" to="1" begin="b7.end" dur="0.12s" fill="freeze"/></text>
+</svg>

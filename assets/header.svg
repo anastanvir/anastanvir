@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 340" fill="none">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.5" fill="#30363d"/>
+    </pattern>
+
+    <clipPath id="cmd1">
+      <rect x="0" y="0" width="0" height="999">
+        <animate id="a1" attributeName="width" from="0" to="840" begin="0.6s" dur="0.5s" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="cmd2">
+      <rect x="0" y="0" width="0" height="999">
+        <animate id="a4" attributeName="width" from="0" to="840" begin="a3.end+0.5s" dur="0.7s" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="cmd3">
+      <rect x="0" y="0" width="0" height="999">
+        <animate id="a6" attributeName="width" from="0" to="840" begin="a5.end+0.5s" dur="1.0s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style>
+    .f { font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace; }
+  </style>
+
+  <!-- Background -->
+  <rect width="840" height="340" rx="10" fill="#0d1117"/>
+  <rect x="0" y="36" width="840" height="304" fill="url(#grid)">
+    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="840" height="340" rx="10" stroke="#30363d" stroke-width="1" fill="none"/>
+
+  <!-- Title bar -->
+  <rect width="840" height="36" rx="10" fill="#161b22"/>
+  <rect y="10" width="840" height="26" fill="#161b22"/>
+  <line x1="0" y1="36" x2="840" y2="36" stroke="#30363d" stroke-width="0.5"/>
+
+  <!-- Traffic lights -->
+  <circle cx="20" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="40" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="60" cy="18" r="6" fill="#28c840"/>
+
+  <!-- Title -->
+  <text x="420" y="23" text-anchor="middle" fill="#8b949e" font-size="12" class="f">anas@dev — zsh</text>
+
+  <!-- ❯ whoami -->
+  <text clip-path="url(#cmd1)" x="30" y="68" font-size="14" class="f">
+    <tspan fill="#7ee787">❯</tspan><tspan fill="#e6edf3"> whoami</tspan>
+  </text>
+
+  <!-- Output: name -->
+  <text x="30" y="96" font-size="20" font-weight="bold" fill="#f0f6fc" class="f" opacity="0">Anas Ahmad<animate id="a2" attributeName="opacity" from="0" to="1" begin="a1.end+0.15s" dur="0.1s" fill="freeze"/></text>
+
+  <!-- Output: role -->
+  <text x="30" y="116" font-size="13" fill="#8b949e" class="f" opacity="0">Software Engineer<animate id="a3" attributeName="opacity" from="0" to="1" begin="a2.end+0.05s" dur="0.1s" fill="freeze"/></text>
+
+  <!-- ❯ echo $MOTTO -->
+  <text clip-path="url(#cmd2)" x="30" y="150" font-size="14" class="f">
+    <tspan fill="#7ee787">❯</tspan><tspan fill="#e6edf3"> echo </tspan><tspan fill="#a5d6ff">$MOTTO</tspan>
+  </text>
+
+  <!-- Output: motto -->
+  <text x="30" y="176" font-size="14" fill="#e6edf3" class="f" opacity="0">I optimize for the engineer who reads my code six months from now.<animate id="a5" attributeName="opacity" from="0" to="1" begin="a4.end+0.15s" dur="0.15s" fill="freeze"/></text>
+
+  <!-- ❯ git log --oneline -4 -->
+  <text clip-path="url(#cmd3)" x="30" y="212" font-size="14" class="f">
+    <tspan fill="#7ee787">❯</tspan><tspan fill="#e6edf3"> git log </tspan><tspan fill="#a5d6ff">--oneline</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#a5d6ff">-4</tspan>
+  </text>
+
+  <!-- Git log output — staggered -->
+  <text x="30" y="236" font-size="13" class="f" opacity="0">
+    <tspan fill="#ffa657">e4a1b3c</tspan><tspan fill="#e6edf3"> fewer features, better execution</tspan>
+    <animate id="a7" attributeName="opacity" from="0" to="1" begin="a6.end+0.15s" dur="0.08s" fill="freeze"/>
+  </text>
+  <text x="30" y="256" font-size="13" class="f" opacity="0">
+    <tspan fill="#ffa657">d2f8a7e</tspan><tspan fill="#e6edf3"> ship, measure, iterate</tspan>
+    <animate id="a8" attributeName="opacity" from="0" to="1" begin="a7.end+0.05s" dur="0.08s" fill="freeze"/>
+  </text>
+  <text x="30" y="274" font-size="13" class="f" opacity="0">
+    <tspan fill="#ffa657">b1c5d9f</tspan><tspan fill="#e6edf3"> optimize for readability before cleverness</tspan>
+    <animate id="a9" attributeName="opacity" from="0" to="1" begin="a8.end+0.05s" dur="0.08s" fill="freeze"/>
+  </text>
+  <text x="30" y="292" font-size="13" class="f" opacity="0">
+    <tspan fill="#ffa657">a0e3f2d</tspan><tspan fill="#e6edf3"> prefer boring technology that scales</tspan>
+    <animate id="a10" attributeName="opacity" from="0" to="1" begin="a9.end+0.05s" dur="0.08s" fill="freeze"/>
+  </text>
+
+  <!-- Blinking cursor -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="a10.end+0.4s" dur="0.01s" fill="freeze"/>
+    <text x="30" y="326" font-size="14" class="f" fill="#7ee787">❯</text>
+    <rect x="48" y="314" width="9" height="16" fill="#7ee787">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.501;1" dur="1s" begin="a10.end+0.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
