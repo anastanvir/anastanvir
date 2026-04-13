@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 30" fill="none">
+  <text x="120" y="20" fill="#21262d" font-size="16" font-family="Consolas,monospace" font-weight="bold">{</text>
+  <text x="140" y="20" fill="#21262d" font-size="12" font-family="Consolas,monospace" opacity="0">
+    <animate attributeName="opacity" values="0;0.4;0" dur="3s" repeatCount="indefinite"/>&#xB7; &#xB7; &#xB7;</text>
+  <text x="180" y="20" fill="#21262d" font-size="16" font-family="Consolas,monospace" font-weight="bold">}</text>
+</svg>

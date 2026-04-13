@@ -16,27 +16,6 @@
 
 <img src="assets/line.svg" width="100%" alt=""/>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anastanvir&bg_color=0d1117&color=7ee787&line=2ea043&point=7ee787&area=true&area_color=2ea04320&hide_border=true&custom_title=Contribution%20Activity" width="840" alt="Activity graph"/>
-</div>
-
-<img src="assets/line.svg" width="100%" alt=""/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anastanvir/anastanvir/output/github-snake-dark.svg"/>
-    <img src="https://raw.githubusercontent.com/anastanvir/anastanvir/output/github-snake-dark.svg" width="840" alt="Contribution snake"/>
-  </picture>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anastanvir&theme=github-dark-blue&hide_border=true" alt="Streak stats"/>
-</div>
-
-<br>
-
 <details>
 <summary>&nbsp;&nbsp;Expand full stack</summary>
 <br>
@@ -61,12 +40,25 @@
 
 </details>
 
-<details>
-<summary>&nbsp;&nbsp;GitHub stats</summary>
 <br>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anastanvir&theme=github_dark&show_icons=true&hide_border=true" alt="GitHub stats"/>
+  <img src="assets/footer.svg" width="120" alt=""/>
   <br><br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anastanvir&layout=compact&theme=github_dark&hide_border=true" alt="Top languages"/>
+  <img src="https://komarev.com/ghpvc/?username=anastanvir&color=2ea043&style=flat-square&label=views" alt="Profile views"/>
 </div>
-</details>
+
+<!--
+### Contribution Snake (optional)
+To enable the contribution snake animation:
+1. Push this repo to GitHub
+2. Go to Actions tab > "Generate Snake" > Run workflow
+3. After it completes, uncomment the block below
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anastanvir/anastanvir/output/github-snake-dark.svg"/>
+    <img src="https://raw.githubusercontent.com/anastanvir/anastanvir/output/github-snake-dark.svg" width="840" alt="Contribution snake"/>
+  </picture>
+</div>
+-->
