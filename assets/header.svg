@@ -23,10 +23,6 @@
     </clipPath>
   </defs>
 
-  <style>
-    .f { font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace; }
-  </style>
-
   <!-- Background -->
   <rect width="840" height="340" rx="10" fill="#0d1117"/>
   <rect x="0" y="36" width="840" height="304" fill="url(#grid)">
@@ -45,54 +41,71 @@
   <circle cx="60" cy="18" r="6" fill="#28c840"/>
 
   <!-- Title -->
-  <text x="420" y="23" text-anchor="middle" fill="#8b949e" font-size="12" class="f">anas@dev — zsh</text>
+  <text x="420" y="23" text-anchor="middle" fill="#8b949e" font-size="12" font-family="Consolas,monospace">anas@dev &#x2014; zsh</text>
 
-  <!-- ❯ whoami -->
-  <text clip-path="url(#cmd1)" x="30" y="68" font-size="14" class="f">
-    <tspan fill="#7ee787">❯</tspan><tspan fill="#e6edf3"> whoami</tspan>
+  <!-- whoami command -->
+  <text clip-path="url(#cmd1)" x="30" y="68" font-size="14" font-family="Consolas,monospace">
+    <tspan fill="#7ee787">&#x276F;</tspan><tspan fill="#e6edf3"> whoami</tspan>
   </text>
 
   <!-- Output: name -->
-  <text x="30" y="96" font-size="20" font-weight="bold" fill="#f0f6fc" class="f" opacity="0">Anas Ahmad<animate id="a2" attributeName="opacity" from="0" to="1" begin="a1.end+0.15s" dur="0.1s" fill="freeze"/></text>
+  <g opacity="0">
+    <animate id="a2" attributeName="opacity" from="0" to="1" begin="a1.end+0.15s" dur="0.1s" fill="freeze"/>
+    <text x="30" y="96" font-size="20" font-weight="bold" fill="#f0f6fc" font-family="Consolas,monospace">Anas Ahmad</text>
+  </g>
 
   <!-- Output: role -->
-  <text x="30" y="116" font-size="13" fill="#8b949e" class="f" opacity="0">Software Engineer<animate id="a3" attributeName="opacity" from="0" to="1" begin="a2.end+0.05s" dur="0.1s" fill="freeze"/></text>
+  <g opacity="0">
+    <animate id="a3" attributeName="opacity" from="0" to="1" begin="a2.end+0.05s" dur="0.1s" fill="freeze"/>
+    <text x="30" y="116" font-size="13" fill="#8b949e" font-family="Consolas,monospace">Software Engineer</text>
+  </g>
 
-  <!-- ❯ echo $MOTTO -->
-  <text clip-path="url(#cmd2)" x="30" y="150" font-size="14" class="f">
-    <tspan fill="#7ee787">❯</tspan><tspan fill="#e6edf3"> echo </tspan><tspan fill="#a5d6ff">$MOTTO</tspan>
+  <!-- echo command -->
+  <text clip-path="url(#cmd2)" x="30" y="150" font-size="14" font-family="Consolas,monospace">
+    <tspan fill="#7ee787">&#x276F;</tspan><tspan fill="#e6edf3"> echo </tspan><tspan fill="#a5d6ff">$MOTTO</tspan>
   </text>
 
   <!-- Output: motto -->
-  <text x="30" y="176" font-size="14" fill="#e6edf3" class="f" opacity="0">I optimize for the engineer who reads my code six months from now.<animate id="a5" attributeName="opacity" from="0" to="1" begin="a4.end+0.15s" dur="0.15s" fill="freeze"/></text>
+  <g opacity="0">
+    <animate id="a5" attributeName="opacity" from="0" to="1" begin="a4.end+0.15s" dur="0.15s" fill="freeze"/>
+    <text x="30" y="176" font-size="14" fill="#e6edf3" font-family="Consolas,monospace">I optimize for the engineer who reads my code six months from now.</text>
+  </g>
 
-  <!-- ❯ git log --oneline -4 -->
-  <text clip-path="url(#cmd3)" x="30" y="212" font-size="14" class="f">
-    <tspan fill="#7ee787">❯</tspan><tspan fill="#e6edf3"> git log </tspan><tspan fill="#a5d6ff">--oneline</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#a5d6ff">-4</tspan>
+  <!-- git log command -->
+  <text clip-path="url(#cmd3)" x="30" y="212" font-size="14" font-family="Consolas,monospace">
+    <tspan fill="#7ee787">&#x276F;</tspan><tspan fill="#e6edf3"> git log </tspan><tspan fill="#a5d6ff">--oneline</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#a5d6ff">-4</tspan>
   </text>
 
-  <!-- Git log output — staggered -->
-  <text x="30" y="236" font-size="13" class="f" opacity="0">
-    <tspan fill="#ffa657">e4a1b3c</tspan><tspan fill="#e6edf3"> fewer features, better execution</tspan>
+  <!-- Git log output -->
+  <g opacity="0">
     <animate id="a7" attributeName="opacity" from="0" to="1" begin="a6.end+0.15s" dur="0.08s" fill="freeze"/>
-  </text>
-  <text x="30" y="256" font-size="13" class="f" opacity="0">
-    <tspan fill="#ffa657">d2f8a7e</tspan><tspan fill="#e6edf3"> ship, measure, iterate</tspan>
+    <text x="30" y="236" font-size="13" font-family="Consolas,monospace">
+      <tspan fill="#ffa657">e4a1b3c</tspan><tspan fill="#e6edf3"> fewer features, better execution</tspan>
+    </text>
+  </g>
+  <g opacity="0">
     <animate id="a8" attributeName="opacity" from="0" to="1" begin="a7.end+0.05s" dur="0.08s" fill="freeze"/>
-  </text>
-  <text x="30" y="274" font-size="13" class="f" opacity="0">
-    <tspan fill="#ffa657">b1c5d9f</tspan><tspan fill="#e6edf3"> optimize for readability before cleverness</tspan>
+    <text x="30" y="256" font-size="13" font-family="Consolas,monospace">
+      <tspan fill="#ffa657">d2f8a7e</tspan><tspan fill="#e6edf3"> ship, measure, iterate</tspan>
+    </text>
+  </g>
+  <g opacity="0">
     <animate id="a9" attributeName="opacity" from="0" to="1" begin="a8.end+0.05s" dur="0.08s" fill="freeze"/>
-  </text>
-  <text x="30" y="292" font-size="13" class="f" opacity="0">
-    <tspan fill="#ffa657">a0e3f2d</tspan><tspan fill="#e6edf3"> prefer boring technology that scales</tspan>
+    <text x="30" y="274" font-size="13" font-family="Consolas,monospace">
+      <tspan fill="#ffa657">b1c5d9f</tspan><tspan fill="#e6edf3"> optimize for readability before cleverness</tspan>
+    </text>
+  </g>
+  <g opacity="0">
     <animate id="a10" attributeName="opacity" from="0" to="1" begin="a9.end+0.05s" dur="0.08s" fill="freeze"/>
-  </text>
+    <text x="30" y="292" font-size="13" font-family="Consolas,monospace">
+      <tspan fill="#ffa657">a0e3f2d</tspan><tspan fill="#e6edf3"> prefer boring technology that scales</tspan>
+    </text>
+  </g>
 
   <!-- Blinking cursor -->
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="a10.end+0.4s" dur="0.01s" fill="freeze"/>
-    <text x="30" y="326" font-size="14" class="f" fill="#7ee787">❯</text>
+    <text x="30" y="326" font-size="14" font-family="Consolas,monospace" fill="#7ee787">&#x276F;</text>
     <rect x="48" y="314" width="9" height="16" fill="#7ee787">
       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.501;1" dur="1s" begin="a10.end+0.4s" repeatCount="indefinite"/>
     </rect>
